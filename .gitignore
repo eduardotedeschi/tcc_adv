@@ -1,0 +1,23 @@
+# Ambiente Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Banco de dados local (cada dev/máquina tem o seu; não deve ir pro Git)
+database/*.db
+
+# Documentos gerados/importados durante o uso do sistema
+documentos_gerados/*
+templates/*
+!documentos_gerados/.gitkeep
+!templates/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
