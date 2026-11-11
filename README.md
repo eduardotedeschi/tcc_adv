@@ -40,9 +40,3 @@ sistema_advogados/
 ├── documentos_gerados/       # saída dos documentos finais
 └── tests/                    # testes automatizados
 ```
-
-### 6. .gitignore
-Já configurado neste projeto para ignorar `.venv/`, `__pycache__/`, o
-arquivo `.db` do SQLite (cada integrante gera o seu localmente) e os
-arquivos dentro de `templates/`/`documentos_gerados/` (dados de uso,
-não código-fonte).
