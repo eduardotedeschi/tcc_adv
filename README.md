@@ -1,4 +1,4 @@
-# Sistema Advogados — Protótipo de Software Gestor de Documentos Advocatícios
+# Sistema Advogados — MVP de Software Gestor de Documentos Advocatícios
 
 ## Como rodar
 
