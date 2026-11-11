@@ -1,6 +1,5 @@
 """
-Tela de composição de petição: seleciona cliente + teses via checklist
-e gera a petição unificada (RF01, RF02, RF03).
+Interface gráfica da tela de Gerar Petição. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 from tkinter import messagebox, ttk
 

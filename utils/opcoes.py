@@ -1,7 +1,5 @@
 """
 Listas de opções estáticas usadas nos SearchableComboBox.
-Isoladas aqui para não poluir o código das telas (antes ficavam
-soltas dentro de gerenciar_clientes() no arquivo original).
 """
 
 NACIONALIDADES = [
@@ -19,7 +17,6 @@ NACIONALIDADES = [
     "paraguaio", "paraguaia", "peruano", "peruana", "português", "portuguesa",
     "russo", "russa", "sueco", "sueca", "suíço", "suíça", "uruguaio",
     "uruguaia", "venezuelano", "venezuelana",
-    # -> lista completa igual à do arquivo original deve ser colada aqui
 ]
 
 ESTADOS_CIVIS = [

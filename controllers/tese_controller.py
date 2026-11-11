@@ -1,6 +1,5 @@
 """
-Regras de negócio da tela de Teses (mesmo padrão de ModeloDocumentoController,
-mas para a tabela `tese`, separada de `modelo_documento` no schema).
+Regras de negócio da tela de Teses
 """
 import os
 import shutil

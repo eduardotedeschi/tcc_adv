@@ -1,3 +1,6 @@
+"""
+Apenas estrutura de dados
+"""
 from dataclasses import dataclass
 from typing import Optional
 
@@ -5,7 +8,7 @@ from typing import Optional
 @dataclass
 class ModeloDocumento:
     nome: str
-    tipo: str  # "Contrato" | "Declaração" | "Procuração" ...
+    tipo: str
     caminho_arquivo: str
     area_direito_id: Optional[int] = None
     id: Optional[int] = None

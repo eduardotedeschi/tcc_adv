@@ -1,8 +1,5 @@
 """
-Regras de autenticação. Usa hashlib.pbkdf2 (biblioteca padrão do Python,
-sem dependência extra) para nunca guardar senha em texto puro no banco —
-importante para RNF05 (compatibilidade/segurança) do levantamento de
-requisitos.
+Regras de autenticação. Usa criptografia para nunca guardar senha em texto puro no banco —
 """
 import hashlib
 import hmac

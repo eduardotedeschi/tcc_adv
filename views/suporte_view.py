@@ -1,6 +1,5 @@
 """
-Tela de suporte/FAQ (RNF07). Conteúdo estático por enquanto — o time
-pode migrar para um arquivo .json/.md se a lista crescer muito.
+Interface gráfica da tela de suporte. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 from tkinter import ttk
 

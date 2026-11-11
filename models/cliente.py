@@ -1,7 +1,5 @@
 """
-Models = apenas estrutura de dados (dataclasses).
-NUNCA colocar acesso a banco ou validação de regra de negócio aqui —
-isso é papel do repository e do controller, respectivamente.
+Apenas estrutura de dados
 """
 from dataclasses import dataclass
 from typing import Optional

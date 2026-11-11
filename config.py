@@ -1,7 +1,6 @@
 """
 Configurações globais da aplicação.
-Qualquer caminho, constante de tela ou parâmetro compartilhado deve
-morar aqui — nunca espalhado dentro das views/controllers.
+Qualquer caminho, constante de tela ou parâmetro compartilhado
 """
 import os
 

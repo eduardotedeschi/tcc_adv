@@ -1,7 +1,5 @@
 """
-Widget reutilizável — mesma lógica do adv_software.py original,
-só que isolado em seu próprio módulo para poder ser importado por
-qualquer tela (cliente, documento etc.) sem duplicar código.
+Combobox que é possível pesquisar
 """
 from tkinter import END, LEFT, X, Listbox
 from tkinter import ttk

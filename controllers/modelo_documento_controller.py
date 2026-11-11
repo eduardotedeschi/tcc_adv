@@ -1,5 +1,5 @@
 """
-Regras de negócio da tela "Gerenciamento de Modelos" (RF05, RF09).
+Regras de negócio da tela "Gerenciamento de Modelos"
 """
 import os
 import shutil

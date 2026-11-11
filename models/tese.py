@@ -1,3 +1,6 @@
+"""
+Apenas estrutura de dados
+"""
 from dataclasses import dataclass
 from typing import Optional
 

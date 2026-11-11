@@ -1,3 +1,6 @@
+"""
+Teste automatizado para criação, junção e geração de documento
+"""
 import os
 import sys
 import tempfile

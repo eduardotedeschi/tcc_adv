@@ -1,7 +1,5 @@
 """
-Orquestra a navegação entre telas. Equivale à antiga classe App do
-arquivo monolítico, mas sem misturar widgets de negócio aqui dentro —
-cada tela é uma classe própria em views/.
+Organiza a navegação entre telas
 """
 import tkinter as tk
 from tkinter import ttk
@@ -53,9 +51,6 @@ class MainWindow:
         self.container_telas = ttk.Frame(self.root, style="Card.TFrame")
         self.container_telas.place(relx=0.24, rely=0.02, relwidth=0.74, relheight=0.96)
 
-        # Cada tela nova do time segue este padrão:
-        # 1. criar a classe em views/nome_view.py
-        # 2. registrar aqui dentro de self.telas
         self.telas = {
             "home": HomeView(self.container_telas),
             "clientes": ClienteView(self.container_telas),

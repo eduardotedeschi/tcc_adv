@@ -1,7 +1,5 @@
 """
-Exemplo de teste automatizado. Rodar com: python -m pytest
-Como os validators são funções puras (sem tkinter, sem banco), dá para
-testar sem precisar abrir a interface gráfica.
+Teste automatizado das funções soltas
 """
 import sys
 import os

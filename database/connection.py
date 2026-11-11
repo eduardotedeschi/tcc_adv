@@ -1,9 +1,6 @@
 """
-Camada de conexão com o banco de dados.
-Nenhuma outra parte do sistema deve importar `sqlite3` diretamente —
-tudo passa por aqui, para que trocar de banco no futuro (ex.: Postgres
-na nuvem, RF15 do levantamento de requisitos) implique mexer só neste
-arquivo.
+Conexão com o banco de dados.
+Trocar de banco no futuro implique mexer só aqui
 """
 import sqlite3
 from contextlib import contextmanager

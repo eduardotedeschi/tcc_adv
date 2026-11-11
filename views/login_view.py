@@ -1,3 +1,6 @@
+"""
+Interface gráfica da tela de Login. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
+"""
 import tkinter as tk
 from tkinter import messagebox, ttk
 
@@ -7,11 +10,6 @@ from utils.ui_helpers import aplicar_geometria_responsiva
 
 
 class LoginView(ttk.Frame):
-    """
-    Tela de login (RF08 / tela 'Tela de Login' do escopo).
-    on_login_sucesso: callback chamado quando a autenticação der certo,
-    para o main_window trocar de tela.
-    """
 
     def __init__(self, parent, on_login_sucesso):
         super().__init__(parent, style="Card.TFrame")

@@ -1,7 +1,5 @@
 """
-Repository = única camada que fala SQL.
-Se amanhã vocês trocarem SQLite por outro banco, só este arquivo muda —
-controllers e views nem percebem a diferença.
+Realiza as requisições com o banco de dados
 """
 from typing import List, Optional
 

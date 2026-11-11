@@ -1,8 +1,5 @@
 """
-Exportação do documento final (RF14). Conversão para PDF depende de um
-motor externo (ex.: docx2pdf no Windows, ou LibreOffice headless em
-outros SOs) — deixado como TODO porque a escolha depende do ambiente
-de cada máquina do time.
+Exportação do documento final
 """
 import os
 import shutil

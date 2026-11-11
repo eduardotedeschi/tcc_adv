@@ -1,6 +1,5 @@
 """
-Tela "documentos do cliente": lista os documentos gerados vinculados a
-um cliente específico, com opção de exportação (RF06, RF07, RF14).
+Interface gráfica da tela de Documentos Clientes. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 from tkinter import filedialog, messagebox, ttk
 

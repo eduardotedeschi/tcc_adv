@@ -1,6 +1,5 @@
 """
-Tela inicial (RNF03): informações sobre funcionamento, versão do sistema
-e orientações de prevenção de erros, exibida antes/depois do login.
+Interface gráfica da tela inicial. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 from tkinter import ttk
 

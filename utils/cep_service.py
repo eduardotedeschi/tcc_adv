@@ -1,6 +1,5 @@
 """
-Integração com a API ViaCEP (REST), citada na Sprint II.docx.
-Atende RF13: preenchimento automático de endereço a partir do CEP.
+Integração com a API ViaCEP: preenchimento automático de endereço a partir do CEP.
 """
 import requests
 
@@ -16,11 +15,7 @@ class CepNaoEncontrado(Exception):
 
 
 def buscar_endereco_por_cep(cep: str) -> dict:
-    """
-    Retorna {"rua": ..., "bairro": ..., "cidade": ..., "uf": ...}
-    Lança CepInvalido ou CepNaoEncontrado em caso de erro, para a
-    view decidir qual mensagem mostrar ao usuário.
-    """
+
     cep_numeros = limpar_numeros(cep)
     if len(cep_numeros) != 8:
         raise CepInvalido("CEP deve conter 8 dígitos.")

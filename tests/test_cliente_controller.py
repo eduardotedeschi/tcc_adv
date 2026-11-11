@@ -1,5 +1,5 @@
 """
-Testes de integração leves do ClienteController, usando um banco SQLite
+Testes de integração leves, usando um banco SQLite
 temporário (não mexe no banco real de desenvolvimento).
 """
 import os

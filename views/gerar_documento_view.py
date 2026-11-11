@@ -1,6 +1,5 @@
 """
-Tela de geração de documento: seleciona cliente + modelo e gera o
-arquivo final com as variáveis substituídas (RF04).
+Interface gráfica da tela de Gerar Documentos. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 from tkinter import messagebox, ttk
 

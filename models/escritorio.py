@@ -1,3 +1,6 @@
+"""
+Apenas estrutura de dados
+"""
 from dataclasses import dataclass
 from typing import Optional
 
@@ -6,5 +9,5 @@ from typing import Optional
 class Escritorio:
     nome: str
     email: str
-    senha_hash: str  # já contém "salt$hash" — ver controllers/auth_controller.py
+    senha_hash: str
     id: Optional[int] = None

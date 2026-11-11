@@ -1,6 +1,5 @@
 """
-Regras de negócio da tela "Geração de Documento" (RF04, tela de geração
-de documento do escopo).
+Regras de negócio da tela "Geração de Documento"
 """
 import os
 from dataclasses import asdict

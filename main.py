@@ -1,6 +1,5 @@
 """
-Ponto de entrada único da aplicação.
-Rodar com: python main.py
+Arquivo para executar
 """
 import tkinter as tk
 

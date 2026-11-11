@@ -1,6 +1,5 @@
 """
-Tela de configurações: alternância de tema (RNF08). Usa sv_ttk para
-aplicar o tema e darkdetect para o modo "automático".
+Interface gráfica da tela de Configurações. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 import darkdetect
 import sv_ttk

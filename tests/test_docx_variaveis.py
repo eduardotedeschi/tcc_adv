@@ -1,3 +1,5 @@
+"""
+Teste automatizado de criação, substituição de variável e geração"""
 import os
 import sys
 import tempfile

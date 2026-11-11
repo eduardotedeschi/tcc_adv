@@ -1,7 +1,5 @@
 """
-Máscaras automáticas de formatação (RNF02 do levantamento de requisitos).
-Usadas nos binds dos Entry, ex:
-    entry.bind("<KeyRelease>", lambda e: aplicar_mascara_cpf(entry))
+Máscaras automáticas de formatação
 """
 from tkinter import Entry
 

@@ -1,6 +1,5 @@
 """
-Tela de gerenciamento de modelos (importar/remover .docx). Segue o
-mesmo padrão de cliente_view.py: só UI, toda regra fica no controller.
+Interface gráfica da tela de Gerenciar Documentos. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk

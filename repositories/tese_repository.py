@@ -1,3 +1,6 @@
+"""
+Realiza as requisições com o banco de dados
+"""
 from typing import List, Optional
 
 from database.connection import db_cursor

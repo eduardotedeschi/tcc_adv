@@ -1,7 +1,5 @@
 """
-Regras de negócio da tela "Composição de Petição" (RF01, RF02, RF03).
-Esta é a parte mais complexa do MVP: valida a seleção de teses, une os
-arquivos .docx na ordem escolhida e gera a seção de Pedidos.
+Regras de negócio da tela "Composição de Petição"
 """
 import os
 from typing import List, Tuple

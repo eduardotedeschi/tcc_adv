@@ -1,8 +1,5 @@
 """
-Controller = ponte entre a tela (view) e os dados (repository).
-Aqui moram as REGRAS DE NEGÓCIO: validação, formatação antes de salvar,
-verificação de duplicidade etc. A view nunca deve montar SQL nem
-conhecer a existência do banco — ela só chama métodos daqui.
+Aqui moram as REGRAS DE NEGÓCIO: validação, formatação etc
 """
 from typing import List, Tuple
 

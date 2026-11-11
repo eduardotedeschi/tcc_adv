@@ -1,10 +1,14 @@
+"""
+Apenas estrutura de dados
+"""
+
 from dataclasses import dataclass
 from typing import Optional
 
 
 @dataclass
 class AreaDireito:
-    nome: str  # ex.: "Cível", "Trabalhista", "Consumidor"
+    nome: str
     id: Optional[int] = None
 
     @staticmethod

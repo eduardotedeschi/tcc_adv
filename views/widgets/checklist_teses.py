@@ -1,7 +1,5 @@
 """
-Checklist de itens com ordem de seleção — usado na tela de composição
-de petição (RF02) para marcar teses e preservar a ordem em que foram
-clicadas (necessária para RF03, seção de Pedidos).
+Checklist de itens com ordem de seleção
 """
 import tkinter as tk
 from tkinter import ttk
@@ -10,7 +8,6 @@ from typing import Callable, List, Tuple
 
 class ChecklistTeses(ttk.Frame):
     def __init__(self, parent, itens: List[Tuple[int, str]], on_change: Callable = None):
-        """itens: lista de (id, nome_exibido)."""
         super().__init__(parent)
         self.on_change = on_change
         self._variaveis = {}

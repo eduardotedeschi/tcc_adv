@@ -1,10 +1,5 @@
 """
-View = só interface gráfica. Toda regra de negócio foi movida para
-ClienteController; esta classe apenas:
-  1. desenha os widgets;
-  2. lê o que o usuário digitou;
-  3. chama o controller;
-  4. mostra o resultado (mensagem de erro/sucesso, atualiza a tabela).
+Interface gráfica da tela de Gerenciar Clientes. Se for mudar a interface gráfica, só muda os arquivos dessa pasta
 """
 import tkinter as tk
 from tkinter import messagebox, ttk
@@ -27,7 +22,6 @@ class ClienteView(ttk.Frame):
         self._criar_tabela()
         self._carregar_clientes()
 
-    # ---------- construção da UI ----------
 
     def _criar_formulario(self):
         style = ttk.Style()
@@ -133,7 +127,6 @@ class ClienteView(ttk.Frame):
         self.tabela.configure(yscrollcommand=scroll_y.set)
         scroll_y.place(relx=0.97, rely=0.45, relwidth=0.02, relheight=0.5)
 
-    # ---------- ações ----------
 
     def _dados_formulario(self) -> dict:
         return {

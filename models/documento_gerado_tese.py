@@ -1,14 +1,14 @@
+"""
+Apenas estrutura de dados
+registra quais teses compõem uma petição e em que sequência elas entram no documento final
+"""
+
 from dataclasses import dataclass
 from typing import Optional
 
 
 @dataclass
 class DocumentoGeradoTese:
-    """
-    Tabela de junção (N:N com atributo `ordem`): registra quais teses
-    compõem uma petição e em que sequência elas entram no documento
-    final (usado para montar a seção de Pedidos na ordem certa).
-    """
     documento_gerado_id: int
     tese_id: int
     ordem: int = 1
